@@ -1,0 +1,52 @@
+/*------------------
+    Kegiatan
+--------------------*/
+$('#carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('#carousel1').owlCarousel({
+    loop:true,
+    margin:20,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+
+$('#carousel2').owlCarousel({
+    loop:true,
+    margin:20,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        1000:{
+            items:1
+        }
+    }
+})
